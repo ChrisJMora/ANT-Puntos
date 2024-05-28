@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConsultasAntApplication {
+public class ANTRequestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConsultasAntApplication.class, args);
+		SpringApplication.run(ANTRequestApplication.class, args);
 	}
-
 }
