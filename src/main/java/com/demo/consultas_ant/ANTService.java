@@ -18,8 +18,8 @@ public class ANTService {
 
     private String GetURL(String id)
     {
-        String url_template = "https://consultaweb.ant.gob.ec/PortalWEB/paginas/clientes/clp_grid_citaciones.jsp?ps_tipo_identificacion=CED&ps_identificacion={id}&ps_placa=";
-        return url_template.replace("{id}", id);
+        String urlTemplate = "https://consultaweb.ant.gob.ec/PortalWEB/paginas/clientes/clp_grid_citaciones.jsp?ps_tipo_identificacion=CED&ps_identificacion={id}&ps_placa=";
+        return urlTemplate.replace("{id}", id);
     }
 
     private String SearchPhrase(String htmlContent, String phrase, int offset, int targetWidth)
